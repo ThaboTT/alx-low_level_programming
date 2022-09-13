@@ -10,7 +10,7 @@ int main(void)
 {
 	char input1[60];
 
-	strcpy(input1, "\"Programming is like building multilingual puzzle");
+	strcpy(input1, "\"Programming is like building a multilingual puzzle");
 
 	puts(input1);
 
