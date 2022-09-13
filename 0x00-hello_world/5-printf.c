@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * input2 - variable to store  string
- * retun: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
