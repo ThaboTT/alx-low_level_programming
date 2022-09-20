@@ -9,19 +9,26 @@
 int main(void)
 {
 	int i = '0';
+	int it = 0;
 
-	while (i <= '9')
+	do
 	{
+		putchar(i);
+		
 		if (i != '9')
 		{
-			putchar(i);
-			putchar(',');
-			putchar(' ');
+			for (it = '0'; it < '1'; it++)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		else
-			putchar(i);
+
 		i++;
-	}
+
+	} while (i <= '9');
+
+	putchar('\n');
 
 	return (0);
 }
