@@ -11,10 +11,9 @@ int main(void)
 	int i = '0';
 	int it = 0;
 
-	do
-	{
+	do {
 		putchar(i);
-		
+
 		if (i != '9')
 		{
 			for (it = '0'; it < '1'; it++)
