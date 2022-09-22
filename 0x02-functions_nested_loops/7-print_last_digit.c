@@ -14,6 +14,7 @@ int print_last_digit(int c)
 
 	if (c < 0)
 	{
+		/* to handle the -ve digits*/
 		i = -l + '0';
 		_putchar(i);
 		return (-l);
