@@ -18,10 +18,10 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			l = i * j;
-			/** 
-			 * l - to store the answer
-			 * k - to store the last digit of the answe	
-			 * m - to store the first digito f the answer 
+			/**
+			 * l - to store the answer.
+			 * k - to store the last digit of the answer.
+			 * m - to store the first digito f the answer.
 			 */
 			if (l < 10)
 				_putchar('0' + l);
@@ -39,6 +39,7 @@ void times_table(void)
 			if (j != 9)
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 			}
 		}
