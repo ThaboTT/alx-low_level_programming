@@ -21,7 +21,7 @@ void more_numbers(void)
 				while (k >= 10)
 					k /= 10;
 				_putchar('0' + k);
-				_putchar('0' + (j%10));
+				_putchar('0' + (j % 10));
 			}
 			else
 				_putchar('0' + j);
