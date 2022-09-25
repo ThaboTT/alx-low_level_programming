@@ -16,7 +16,9 @@ int main(void)
 		m3 = i % 3;
 		m5 = i % 5;
 
-		if (m3 == 0)
+		if (m3 == 0 && m5 == 0)
+			printf("%s ", "FizzBuzz");
+		else if (m3 == 0)
 			printf("%s ",  "Fizz");
 		else if (m5 == 0)
 		{
@@ -24,10 +26,6 @@ int main(void)
 				printf("%s", "Buzz");
 			else
 				printf("%s ", "Buzz");
-		}	
-		else if (m3 == 0 && m5 == 0)
-		{
-			printf("%s ", "FizzBuzz");
 		}
 		else
 			printf("%d ", i);
