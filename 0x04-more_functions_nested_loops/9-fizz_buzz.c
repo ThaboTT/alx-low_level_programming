@@ -19,13 +19,20 @@ int main(void)
 		if (m3 == 0)
 			printf("%s ",  "Fizz");
 		else if (m5 == 0)
-			printf("%s ", "Buzz");
+		{
+			if (i == 100)
+				printf("%s", "Buzz");
+			else
+				printf("%s ", "Buzz");
+		}	
 		else if (m3 == 0 && m5 == 0)
+		{
 			printf("%s ", "FizzBuzz");
+		}
 		else
 			printf("%d ", i);
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
